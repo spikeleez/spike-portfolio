@@ -1,0 +1,42 @@
+h2.title span {
+  color: var(--primary-color);
+}
+
+section.especialidades {
+  padding: 80px 4%;
+}
+
+section.especialidades .flex {
+  gap: 60px;
+}
+
+.especialidades .especialidades-box {
+  color: var(--text-color);
+  padding: 40px;
+  border-radius: 25px;
+  margin-top: 45px;
+  /*box-shadow: 0 10px 20px rgba(20, 20, 20, 1);*/
+  /*box-shadow: 0 0 10px 6px rgba(15, 15, 15, 1);*/
+  transition: all ease var(--transition-especialidades-box);
+}
+
+.especialidades .especialidades-box:hover {
+  transform: scale(1.05);
+  /*box-shadow: 0 0 8px #ffffff59; rgba(17, 181, 228, 0.15) */
+  box-shadow: 0 0 20px 1px var(--primary-color);
+  cursor: default;
+}
+
+.especialidades .especialidades-box i {
+  font-size: 70px;
+  color: var(--primary-color);
+}
+
+.especialidades .especialidades-box h3 {
+  font-size: 28px;
+  margin: 15px 0;
+}
+
+.especialidades .especialidades-box p {
+  max-width: 800px;
+}

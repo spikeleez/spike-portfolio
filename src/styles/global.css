@@ -1,0 +1,83 @@
+:root {
+  --background-color: #000;
+  --primary-color: #11b5e4;
+  --secondary-color: #0caadc;
+  --text-color: #f2f2f2;
+  --text-disabled-color: #333;
+
+  --transition-timer: 0.25s;
+  --transition-header-timer: 0.25s;
+  --transition-logo-timer: 0.25s;
+  --transition-button-timer: 0.25s;
+  --transition-especialidades-box: 0.25s;
+  --transition-overlay: 0.5s;
+  --transition-overlay-project: 8s;
+
+  --box-shadow-card-normal: 0 0 10px 6px rgba(15, 15, 15, 1);
+  --box-shadow-card-hovered: 0 0 20px 1px var(--primary-color);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.line-spacer {
+  border-top: 1px solid rgba(17, 181, 228, 0.2);
+  margin: 0 50px;
+  padding: 40px 4%;
+}
+
+h2.title {
+  color: var(--text-color);
+  font-size: 38px;
+  text-align: center;
+}
+
+body {
+  background-color: var(--background-color);
+  height: 100vh;
+}
+
+.interface {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.btn-contato button {
+  padding: 10px 40px;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 2px solid var(--primary-color);
+  background-color: var(--background-color);
+  color: var(--primary-color);
+  transition: all ease var(--transition-button-timer);
+}
+
+.btn-contato button:hover {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  border: 2px solid var(--secondary-color);
+  box-shadow: 0px 0px 4px rgba(0, 255, 8, 0.7);
+  transform: scale(1.05);
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}

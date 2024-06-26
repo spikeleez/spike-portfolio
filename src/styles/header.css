@@ -1,0 +1,38 @@
+header {
+  padding: 40px 4%;
+}
+
+header > .interface {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .menu-desktop a {
+  color: var(--text-color);
+  text-decoration: none;
+  display: inline-block;
+  transition: all ease var(--transition-header-timer);
+}
+
+header .menu-desktop a:hover {
+  color: var(--primary-color);
+  transform: scale(1.05);
+}
+
+.logo {
+  transition: all ease var(--transition-logo-timer);
+}
+
+.logo:hover {
+  transform: scale(1.05);
+}
+
+header nav ul {
+  list-style-type: none;
+}
+
+header nav ul li {
+  display: inline-block;
+  padding: 0px 40px;
+}
