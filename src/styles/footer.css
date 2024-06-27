@@ -1,5 +1,5 @@
 footer {
-  padding: 60px 4%;
+  padding: 50px 4%;
   /*box-shadow: 0 0 40px 10px #ffffff1d;*/
 }
 
@@ -23,4 +23,12 @@ footer .line-footer p i {
 footer .line-footer p a {
   color: var(--text-color);
   text-decoration: none;
+}
+
+footer .line-footer p {
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
 }
